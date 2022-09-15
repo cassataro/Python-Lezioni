@@ -10,5 +10,3 @@ if password_sicura == 1234:
     print ("Benvenuto" , nome_utente)
 else:
     print("Password non corretta")
-
-print ("")

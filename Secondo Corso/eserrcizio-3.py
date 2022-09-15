@@ -18,4 +18,3 @@ if ore_lavorative > 40:
     print("Ore lavorative:" , ore_lavorative)
     print("Tariffa Oraria:" , ore_straordinario)
     print("Paga totale:" , paga_totale)
-print("")

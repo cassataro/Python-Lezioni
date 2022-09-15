@@ -9,8 +9,6 @@ if eta_utente > 18:
     else:
         print("Password non corretta")
 
-print ("")
-
 
 
 
