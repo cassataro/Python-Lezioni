@@ -1,10 +1,12 @@
-mia_eta = 45
-mio_nome = 'Concetta'
+nome_utente = input("Quale è il tuo nome? ")
+eta_utente = int(input("Quanti anni hai? "))
+if eta_utente < 18:
+    print("Ti diamo il benvenuto" , nome_utente , "! Sei un minorenne.")
+if eta_utente > 18:
+    print("Ti diamo il benvenuto" , nome_utente , "! Sei un maggiorenne.")
 
-print ("Ciao sono " + mio_nome + ' e ho ' + str(mia_eta) +" anni, ti dò il benvenuto")
-
-tuo_nome = input('Tu come ti chiami? ')
-tua_eta = input('Quale è tua età? ')
-somma_eta = int(mia_eta) + int(tua_eta)
-
-print ("Ciao " + tuo_nome + " benvenuto, sai che la somma della tua età e della mia età è " + str(somma_eta))
+password_sicura = int(input("Inserisci la tua password "))
+if password_sicura == 1234:
+    print ("Benvenuto" , nome_utente)
+else:
+    print("Password non corretta")
