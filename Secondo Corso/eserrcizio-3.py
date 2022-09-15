@@ -6,14 +6,12 @@ if ore_lavorative == 40:
     print("Ore lavorative:" , ore_lavorative)
     print("Tariffa Oraria:" , tariffa_oraria)
     print("Paga totale:" , paga_totale)
-print("")
 
 if ore_lavorative < 40:
     paga_totale = ore_lavorative * tariffa_oraria
     print("Ore lavorative:" , ore_lavorative)
     print("Tariffa Oraria:" , tariffa_oraria)
     print("Paga totale:" , paga_totale)
-print("")
 
 if ore_lavorative > 40:
     paga_totale = ore_lavorative * ore_straordinario
