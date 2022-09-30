@@ -24,6 +24,6 @@ elif utente =='s' and computer =='f' or utente =='f' and computer =='c' or utent
     print('Hai vinto!')
 else:
 
-    print('Ha vinto il computer!')
+    print('Ha vinto il computer! ')
 
 print(computer)
